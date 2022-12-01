@@ -16,11 +16,11 @@ public class SeleniumAutomateApplication {
 
 		String userName = "//*[@id=\"username\"]";
 		WebElement searchBoxElement = driver.findElement(new By.ByXPath(userName));
-		searchBoxElement.sendKeys("prakhar.bansal@thechefkart.com");
+		searchBoxElement.sendKeys("your easy hr email");
 
 		String password = "//*[@id=\"password\"]";
 		WebElement passwordBoxElement = driver.findElement(new By.ByXPath(password));
-		passwordBoxElement.sendKeys("pra24@bansal");
+		passwordBoxElement.sendKeys("your easy hr password");
 
 		// *[@id="btnCheckIn"]
 		String loginButton = "//*[@id=\"btnSignin\"]";
